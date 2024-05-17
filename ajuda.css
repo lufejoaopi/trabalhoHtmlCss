@@ -1,3 +1,4 @@
+css
 /* Estilos gerais */
 
 body {
@@ -43,25 +44,24 @@ h2 {
     color: #23c483;
 }
 
-/* Estilos para Perguntas Frequentes */
+/* Estilos para FAQ */
 
-#faq ul {
+.faq ul {
     padding: 0;
 }
 
-#faq li {
+.faq li {
     margin-bottom: 20px;
 }
 
-#faq h3 {
+.faq h3 {
     margin-top: 0;
+    cursor: pointer;
+    color: #23c483;
 }
 
-/* Estilos para Instruções de Uso */
-
-#instrucoes ul {
-    list-style-type: disc;
-    padding-left: 20px;
+.faq .answer {
+    display: none;
 }
 
 footer {
