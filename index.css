@@ -12,7 +12,7 @@ body {
 
 .banner {
   width: 100%;
-  background-color: #ffc0cb; 
+  background-color: #007bff; 
   text-align: center;
   padding: 20px;
   color: white;
@@ -35,7 +35,7 @@ body {
 }
 
 .menu-principal button {
-  background-color: #ffc0cb;
+  background-color: #007bff;
   color: rgb(46, 25, 143);
   padding: 10px 15px;
   border: none;
@@ -43,7 +43,7 @@ body {
 }
 
 .menu-principal button:hover {
-  background-color: #ae34b9;
+  background-color: #007bff;
 }
 
 .menu-suspenso {
@@ -118,7 +118,7 @@ body {
 
 .navegacao button {
   padding: 10px 20px;
-  background-color: #c390bb;
+  background-color: #007bff;
   border: none;
   cursor: pointer;
 }
@@ -128,7 +128,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #ffc0cb;
+  background-color: #007bff;
   color: #fff;
 }
 
@@ -146,7 +146,7 @@ body {
   display: block;
   width: 200px; /* Larger width when active */
   padding: 10px 20px;
-  background-color: #ffc0cb;
+  background-color: #007bff;
 }
 
 .menu-links ul {
@@ -166,7 +166,7 @@ body {
 }
 
 .menu-links ul a:hover {
-  color: #ff6f91; /* Change text color on hover */
+  color: #007bff; /* Change text color on hover */
   font-size: 1.1em; /* Increase font size on hover */
   text-decoration: underline; /* Underline text on hover */
 }
@@ -174,7 +174,7 @@ body {
 footer {
     text-align: center; /* Centraliza o texto */
     padding: 20px; /* Adiciona um pouco de preenchimento */
-    background-color: #ffc0cb; /* Cor de fundo para o rodapé */
+    background-color: #007bff; /* Cor de fundo para o rodapé */
     color: white; /* Cor do texto */
 }
 
