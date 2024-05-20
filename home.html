@@ -3,77 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Shaneli</title>
-    <style>
-        /* Estilos existentes */
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-        header, main, footer {
-            max-width: 90%;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-        /* Estilos para a imagem */
-        .destaque-imagem {
-            margin-top: 20px; /* Espaçamento acima da imagem */
-            max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
-            height: auto; /* Mantém a proporção da imagem */
-        }
-    </style>
 </head>
 <body>
-    <header>
-         <meta charset="UTF-8">
-         <title>Botão Customizado</title>
-         <link rel="stylesheet" href="styles.css">
-        <h1>Bem-vindo à Shaneli</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="produtos.html">Produtos</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
     
-    <main>
-        <section>
-            <h1>Vendedores em Destaque</h1>
-            <div class="Vendedor">
-                <!-- Conteúdo dos vendedores -->
+    <div class="banner">
+        <h1>Bem-Vindo a Shaneli</h1>
+        <h3>Ofertas especiais de dia dos namorados</h3>
+        <p>Cosméticos para Vida</p>
+    </div>
+        
+    <div class="menu-principal">
+        <div class="menu-suspenso">
+            <button>Sobre Nós</button>
+            <ul class="opcoes-escondidas">
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i> Twitter</a></li>
+            </ul>
+        </div>
+        <div class="menu-lista">
+            <i class="fas fa-bars"></i>
+            <div class="menu-links">
+                <ul>
+                    <li><a href="perfil.html">Perfil</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="carrinho.html">Carrinho</a></li>
+                    <li><a href="ajuda.html">Ajuda</a></li>
+
+                </ul>
             </div>
-            <img src="https://drive.google.com/uc?export=view&id=1O64tepw7hBFMbGrdJ7i-UKu0SAPpv8eM.png" height= "400" width="400" alt="Descrição da imagem" class="destaque-imagem"><br>          <br>
-            <button id="Vendedor 1" class="botao-customizado">McDonald's</button><br>
-            <button id="Vendedor 2" class="botao-customizado">O Boticário</button><br>
-            <button id="Vendedor 3" class="botao-customizado">Samsung </button><br>
-            <button id="Vendedor 3" class="botao-customizado">Apple </button><br>
-            <button id="Vendedor 3" class="botao-customizado">Ri happy </button><br>
-            <button id="Vendedor 3" class="botao-customizado">Sephora </button><br>
-            <button id="Vendedor 3" class="botao-customizado">Casa dos Salgados</button><br>
-            <button id="Vendedor 3" class="botao-customizado">ToyMania </button><br>
-            <button id="Vendedor 3" class="botao-customizado">Época cosméticos- Perfumaria </button><br>
-            <button id="Vendedor 3" class="botao-customizado">Natura</button><br>
-            <!-- Adicionando uma imagem após os vendedores -->
-            
-        </section>
-    </main>
+        </div>
+    </div>
+          
+    <div class="container">
+        <div class="carousel" role="region" aria-label="Slideshow">
+            <div class="slide" aria-hidden="true">
+                <img src="/imagens/garotaFofa.png" alt="Imagem 1">
+            </div>
+            <div class="slide" aria-hidden="true">
+                <img src="https://gkpb.com.br/wp-content/uploads/2021/05/mcdonalds-oferece-cheeseburguer-por-0-99-neste-dia-do-hamburguer-promocao-big-mac-gkpb.jpg" alt="Imagem 2">
+            </div>
+            <div class="slide" aria-hidden="true">
+                <img src="https://t.ctcdn.com.br/aFp_I8ScTJJch32H29ImNebDEYU=/i489949.jpeg" alt="Imagem 3">
+            </div>
+            <div class="slide" aria-hidden="true">
+                <img src="https://investidor10.com.br/conteudo/wp-content/uploads/2024/01/novo-logo-o-boticario-2020.jpg" alt="Imagem 4">
+            </div>
+        </div>
+    
+        <div class="navegacao">
+            <button class="anterior" aria-label="Slide anterior">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button class="proximo" aria-label="Próximo slide">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
 
     <footer>
         <p>&copy; 2024 Loja Virtual. Todos os direitos reservados.</p>
     </footer>
+            
+    <script src="index.js"></script>
 </body>
 </html>
