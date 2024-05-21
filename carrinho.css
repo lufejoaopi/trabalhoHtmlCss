@@ -1,0 +1,76 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2B3A4B; /* Plano de fundo em azul escuro */
+    color: black; /* Texto em preto */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px; /* Aumenta o tamanho da fonte para h2 */
+}
+
+button {
+    display: inline-block; /* Alteração para manter os botões na mesma linha */
+    margin: 20px 10px; /* Espaçamento entre os botões */
+    padding: 10px 30px; /* Tamanho dos botões ajustados */
+    font-size: 16px;
+    background-color: #007bff; /* Azul padrão */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Botões redondos */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor mais escura no hover */
+}
+
+/* Estilos específicos para o carrinho de compras */
+#carrinho {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#carrinho-conteudo {
+    margin-bottom: 20px;
+}
+
+.item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex; /* Para organizar os itens lado a lado */
+    justify-content: space-between; /* Espaço igual entre os itens e os botões */
+    align-items: center; /* Alinhar verticalmente os itens */
+}
+
+.item img {
+    max-width: 100px;
+    vertical-align: middle;
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.item .nome {
+    font-weight: bold;
+}
+
+#total-preco {
+    text-align: left; /* Alinhar o valor total à esquerda */
+    font-weight: bold;
+    margin-bottom: 20px; /* Espaçamento entre os itens e o valor total */
+}
+
+#voltar-produtos {
+    display: inline-block; /* Para manter na mesma linha */
+    margin-right: 20px; /* Espaçamento entre o botão e o valor total */
+}
