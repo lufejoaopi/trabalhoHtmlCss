@@ -14,8 +14,13 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+p {
+    text-align: justify;
+    padding: 50px;
+}
+
 h2 {
-    text-align: center;
+    text-align: justify;
 }
 
 article {
@@ -53,3 +58,4 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
