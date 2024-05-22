@@ -10,14 +10,14 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url(/fundo.png);
 }
-
 
 .banner {
   width: 100%;
   background-color: #2c3e50; 
   text-align: center;
-  padding: 21px;
+  padding: 27px;
   color: white;
 }
 
@@ -221,18 +221,27 @@ footer {
   height: 250px;
   width: 400px;
   margin-bottom: 10px;
+  border: 2px solid #000000;
 }
 
-h3 { 
+.lojas { 
   text-align: center;
+  margin: auto;
+  padding: 15px;
+  width: 20%;
+  background-color: #f4f4f4;
+  border: 1px solid #000000;
+  border-radius: 5px;
   margin-bottom: 10px;
 }
 
 .special-z {
   text-align: justify;
+  margin: auto;
+  width: 60%;
   padding: 60px;
   background-color: #f4f4f4;
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -255,7 +264,17 @@ button{
   transition: background-color 0.3s;
 }
 
-.dot{
+.botao-classe {
   text-align: center;
   align-items: center;
+}
+
+button{
+  background-color: #2c3e50;
+  color: white; 
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  left: 100px;
+  right: 100%;
 }
