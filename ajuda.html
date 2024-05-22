@@ -1,172 +1,144 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil do Vendedor</title>
-    <link rel="stylesheet" href="vendedor.css">
+    <title>Ajuda - Shaneli</title>
+    <link rel="stylesheet" href="ajuda.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questions = document.querySelectorAll('.faq h3');
+            questions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                    } else {
+                        answer.style.display = 'block';
+                    }
+                });
+            });
+        });
+    </script>
 </head>
 <body>
-    <div class="container">
-        <aside class="sidebar">
-            <ul class="menu">
-                <li><a href="perfil.html">Conta</a></li>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="produtos.html">Produtos</a></li>
-                <li><a href="carrinho.html">Carrinho</a></li>
-                <li><a href="ajuda.html">Ajuda</a></li>
+    <header>
+        <h1>Ajuda</h1>
+        <nav>
+            <ul>
+                <li><a href="perfil.html">Perfil</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="carrinho.html">Carrinho</a></li>
+                    <li><a href="ajuda.html">Ajuda</a></li>
             </ul>
-        </aside>
-        <div class="main-content">
-            <div class="vendedor-container">
-                <div class="vendedor-imagem">
-                    <img src="https://t.ctcdn.com.br/aFp_I8ScTJJch32H29ImNebDEYU=/i489949.jpeg" alt="Imagem do Vendedor">
+        </nav>
+    </header>
 
-                </div>
-                <div class="Apple">
-                    <h1>Apple</h1>
-                    <p> Bem-vindo ao mundo Apple, onde inovação e design se encontram para criar experiências extraordinárias! Descubra uma gama incomparável de produtos, desde o icônico iPhone até o poderoso MacBook e o revolucionário Apple Watch. Na Apple, cada dispositivo é projetado para oferecer desempenho excepcional, simplicidade de uso e uma integração perfeita entre hardware e software. Explore nossos serviços, como o Apple Music e o iCloud, que elevam sua experiência digital a novos patamares. Visite uma de nossas lojas ou explore nosso site e descubra por que milhões de pessoas ao redor do mundo escolhem a Apple para fazer parte de suas vidas. Junte-se a nós e descubra o poder da tecnologia feita com paixão e precisão. Apple – inovação que inspira.</p>
-                </div>
-                <div class="produtos-secao">
-                    <h2>Produtos</h2>
-                    <article> 
+    <main>
+        <section id="faq" class="faq">
+            <h2>Perguntas Frequentes</h2>
+            <ul>
+                <li>
+                    <h3>Como faço para comprar um produto?</h3>
+                    <div class="answer">
+                        <p>Comprar um produto na Shaneli é simples e fácil. Siga estas etapas:</p>
+                        <ol>
+                            <li>Explore nossa loja online e encontre o produto que deseja comprar.</li>
+                            <li>Clique no produto para ver mais detalhes, como descrição, preço e disponibilidade.</li>
+                            <li>Selecione a quantidade desejada e clique no botão "Adicionar ao carrinho".</li>
+                            <li>Depois de adicionar todos os itens desejados ao seu carrinho, clique no ícone do carrinho no canto superior direito da página.</li>
+                            <li>No carrinho, verifique se todos os itens estão corretos e clique em "Finalizar compra".</li>
+                            <li>Preencha suas informações de entrega e escolha um método de pagamento.</li>
+                            <li>Revise seu pedido e clique em "Confirmar pedido".</li>
+                            <li>Após a confirmação do pedido, você receberá um e-mail de confirmação com os detalhes da compra.</li>
+                            <li>Seu pedido será processado e enviado para o endereço fornecido.</li>
+                        </ol>
+                        <p>E pronto! Agora é só aguardar a entrega do seu pedido na comodidade da sua casa.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Como entro em contato com o suporte?</h3>
+                    <div class="answer">
+                        <p>Você pode entrar em contato com o nosso suporte através de nosso email: lojaShaneli@gmail.com.br</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
 
-                        <h3>Apple iPhone 15 de 512GB - Verde</h3> 
-            
-                    <img src="https://www.iplace.com.br/ccstore/v1/images/?source=/file/v7850562972007763218/products/227971.00.638513612241583419-apple-iphone-15-512gb-verde-mtph3br-a.jpg&height=350&width=350&quality=1.0"height= "300" width="300" alt="">
-                    <p>Marca: Apple.</p>
-                    <p>Vendedor: Apple.</p>    
-                    <p>Descrição: 1. Espaço para Tudo: Com 512GB de armazenamento.
-            
-                     <p>2. Design: Uma combinação de alumínio e vidro colorido, com uma frente em Ceramic Shield que resiste a quedas e arranhões.</p>
-                        
-                     <p>3. Visual Incrível: A tela Super Retina XDR de 6,1 polegadas traz cores e detalhes.</p>
-                        
-                     <p>4. Potência que Impressiona: O chip A16 Bionic torna cada ação rápida e fluida.</p>
-                        
-                     <p>5. Fotos que Falam: Com a câmera de 48MP.</p>
-                        
-                     <p>6. Resistência Superior: Certificação IP68 significa que seu iPhone pode enfrentar água e poeira sem problemas.</p>
-                        
-                    <p>7. Inteligência Artificial Avançada: O iOS 17.</p>
-                         </p> 
-                        <p>Avaliação: ★ ★ ★ ☆ ☆ 3.0 (695 avaliações)</p>
-                        <p>Preço: R$ 6.749,00</p> 
-            
-                        <button onclick="adicionarAoCarrinho('Apple iPhone 15 de 512GB', 6749.00)">Adicionar ao carrinho</button>
-            
-            
-                    </article>
-                    <article> 
-            
-                        <h3>iPad Air 13 polegadas</h3> 
-            
-                    <img src="data:image/jpeg;base64,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"height= "300" width="300" alt="">
-                    <p>Marca: Apple.</p>
-                    <p>Vendedor: Apple.</p>    
-                    <p>Descrição: 1. Armazenamento: 1 TBNota de rodapé1.   
-                    <p>2. Potência: Chip M2 da Apple: Inclui uma CPU de 8 núcleos e uma GPU de 10 núcleos, neural Engine de 16 núcleos,
-                  8 GB de RAM.</p>
-                  <p>3. Resistência: Espessura de 6,1 mm, tela Liquid retina, com revestimento resistente a impressões digitais e oleosidade, além de ser totalmente laminada com revestimento antirreflexo, brilho de até 600 nits.</p>
-                    </p> 
-                        <p>Avaliação: ★ ★ ★ ☆ ☆ 3.0 (169 avaliações)</p>
-                        <p>Preço: R$ 3.637,50</p> 
-            
-                        <button onclick="adicionarAoCarrinho('iPad Air 13 polegadas', 3637.50)">Adicionar ao carrinho</button>
-            
-            
-                    </article>
-                    <article> 
-            
-                        <h3>Apple Watch Series 7</h3> 
-            
-                    <img src="https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111909_series7-480.png"height= "300" width="300" alt="">
-                    <p>Marca: Apple.</p>
-                    <p>Vendedor: Apple.</p>    
-                    <p>Descrição: 1. Armazenamento: 32 GB.
-                        <p> 2. Potência:
-                            Chip S7 SiP: Um processador de dois núcleos de 64 bits,
-                            W3 Chip para conexões sem fio (Banda ultralarga).
-                            Resistência:</p>  
-                        <p>3. Resistência:
-                            Resistente à água,
-                            resistência à poeira,
-                            com uma tela de cristal que é mais forte e resistente a rachaduras.</p>           </p> 
-                        <p>Avaliação: ★ ★ ☆ ☆ ☆ 2.0 (200 avaliações)</p>
-                        <p>Preço: R$ 3.249,90</p> 
-            
-                        <button onclick="adicionarAoCarrinho('Apple Watch Series 7', 3249.90)">Adicionar ao carrinho</button>
-            
-            
-                    </article>
-                    <article> 
-            
-                        <h3> AirPod Pro</h3> 
-            
-                    <img src="https://www.apple.com/v/airpods-pro/h/images/specs/airpods__ea3kvnhxv96q_large.jpg"height= "300" width="300" alt="">
-                    <p>Marca: Apple.</p>
-                    <p>Vendedor: Apple.</p>    
-                    <p>Descrição: 1. Potência:
-             
-                        Chip H2 da Apple,
-                        driver de alta amplitude,
-                        amplificador exclusivo com alto alcance dinâmico.
-                         <p>2. Resistência:
-            
-                            Resistência a poeira, suor e água.</p>
-                    <p>3. Sistema:
-             de entrada e saída de ar: Para equalizar a pressão e garantir maior conforto durante o uso prolongado.</p>  
-                       <p>Os AirPods Pro são conhecidos por sua qualidade de som superior, design confortável e recursos avançados.
-                    </p>
-             <p>Avaliação: ★ ★ ★ ★ ★ 5.0 (236 avaliações)</p>
-                        <p>Preço: R$ 1.296</p> 
-            
-                        <button onclick="adicionarAoCarrinho('AirPod Pro', 1296.99)">Adicionar ao carrinho</button>
-            
-            
-                    </article>
-                    <article> 
-            
-                        <h3>MacBook Pro </h3> 
-            
-                    <img src="https://www.bing.com/th?id=OPHS.hy2uIlZGj%2fMg0g474C474&o=5&pid=21.1&w=160&h=160&qlt=100&dpr=1,3&pcl=f5f5f5"height= "300" width="300" alt="">
-                    <p>Marca: Apple.</p>
-                    <p>Vendedor: Apple.</p>    
-                    <p>Descrição: <p>1. Tela:14 e 16 polegadas. Liquid Retina XDR, resolução até 3456 x 2234 pixels, brilho de até 1600 nits (HDR).</p> </p> 
-                    <p>2. Residência: Portabilidade é Fino e leve, adequado para uso em qualquer lugar.</p>    
-            <p>3.  Potência:
-                Desempenho Ideal para tarefas intensivas como edição de vídeo em 8K e renderização 3D.</p>      
-                <p>
-                    4.  Geração:
-                    M1 Pro e M1 Max.
-                    </p> 
-                    <p>
-                        5.  Memória:
-                        RAM Até 64GB de memória unificada.
-                        </p>
-                        <p>6.  Processador:
-                            M1 Pro e M1 Max CPU de até 10 núcleos, GPU de até 32 núcleo.
-                            </p>
-                       <p>Avaliação: ★ ★ ★ ★ ☆ 4.0 (622 avaliações)</p>
-                        <p>Preço: R$ 43.999,99</p> 
-                        <button onclick="adicionarAoCarrinho('Macbook Pro', 43999.99)">Adicionar ao carrinho</button>
-            
-                    </article>
-                    <div class="navegacao">
-                        <button onclick="irParaCarrinho()">Ver Carrinho</button>
+        <section id="instrucoes" class="faq">
+            <h2>Instruções de Uso</h2>
+            <ul>
+                <li>
+                    <h3>Como navegar na página inicial?</h3>
+                    <div class="answer">
+                        <p>Para visitar a página inicial, clique em "Home" no menu de navegação.</p>
                     </div>
-                </div> 
+                </li>
+                <li>
+                    <h3>Como ver nossos produtos?</h3>
+                    <div class="answer">
+                        <p>Para ver nossos produtos, clique em "Produtos".</p>
                     </div>
-                    <!-- Adicione mais produtos conforme necessário -->
-                </div>
-                <div class="avaliacao">
-                    <h2>Avaliação</h2>
-                    <p>⭐⭐⭐⭐☆</p>
-                    <p>4.5 de 5 baseado em 100 avaliações</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="teste.js"></script>
+                </li>
+                <li>
+                    <h3>Como saber mais sobre nossa empresa?</h3>
+                    <div class="answer">
+                        <p>Para saber mais sobre nossa empresa, clique em "Sobre Nós".</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Como entrar em contato conosco?</h3>
+                    <div class="answer">
+                        <p>Para entrar em contato conosco, clique em "Contato".</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="politica-devolucao" class="faq">
+            <h2>Política de Devolução</h2>
+            <ul>
+                <li>
+                    <h3>Como funciona a devolução de produtos?</h3>
+                    <div class="answer">
+                        <p>Você pode devolver produtos dentro do prazo de 30 dias a partir da data de entrega. Para ser elegível para devolução, o produto deve estar nas mesmas condições em que você o recebeu, sem uso e na embalagem original.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Qual é o processo de devolução?</h3>
+                    <div class="answer">
+                        <ol>
+                            <li>Entre em contato conosco pelo e-mail [ojaShaneli@gmail.com.br] para solicitar a devolução. Por favor, inclua o número do seu pedido e o motivo da devolução.</li>
+                            <li>Iremos fornecer as instruções necessárias para o envio do produto de volta para nós.</li>
+                            <li>Assim que recebermos o produto devolvido e confirmarmos que está em condições adequadas, processaremos o reembolso.</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <h3>Como funciona o reembolso?</h3>
+                    <div class="answer">
+                        <p>Após a aprovação da devolução, o reembolso será processado e um crédito será automaticamente aplicado ao seu cartão de crédito ou método original de pagamento dentro de alguns dias úteis.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Quem arca com os custos de envio?</h3>
+                    <div class="answer">
+                        <p>Os custos de envio para devolução do produto serão de responsabilidade do cliente, a menos que o motivo da devolução seja devido a um erro nosso.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Como posso esclarecer dúvidas sobre a política de devolução?</h3>
+                    <div class="answer">
+                        <p>Se você tiver alguma dúvida sobre nossa política de devolução, entre em contato conosco pelo e-mail [lojaShaneli@gmail.com.br] ou pelo telefone [+55 (11) 98765-4321]. Estamos aqui para ajudar!</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shaneli. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
