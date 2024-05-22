@@ -2,54 +2,107 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
+    display: flex;
 }
 
-#container {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #fff;
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #2c3e50;
+    color: white;
     padding: 20px;
-    margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    position: fixed;
 }
 
-h2 {
-    text-align: center;
+.menu {
+    list-style-type: none;
+    padding: 0;
 }
 
-article {
-    margin-bottom: 40px;
+.menu li {
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
-h3 {
-    color: #333;
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+    width: calc(100% - 220px);
 }
 
-p {
-    color: #666;
-    line-height: 1.5;
+.vendedor-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-img {
+.vendedor-imagem img {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;
+    border-radius: 8px;
     margin-bottom: 20px;
 }
 
+.vendedor-descricao h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+.produtos-secao {
+    margin-top: 20px;
+}
+
+.produto-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.produto-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.produto-item h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.avaliacao {
+    margin-top: 20px;
+}
+
+.avaliacao h2 {
+    margin-top: 0;
+}
+
 button {
-    background-color: #4caf50;
+    background-color: #007bff;
     color: white;
-    padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    padding: 10px;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
+}
+.menu li a {
+    color: white; /* Mantém a cor branca nos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+    display: block; /* Torna o link clicável em toda a área do item */
+    padding: 10px 0; /* Adiciona um pouco de espaçamento para tornar mais fácil clicar */
 }
