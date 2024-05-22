@@ -12,12 +12,12 @@ body {
   padding: 0;
 }
 
-/* Estilos do Banner */
+
 .banner {
   width: 100%;
   background-color: #2c3e50; 
   text-align: center;
-  padding: 20px;
+  padding: 21px;
   color: white;
 }
 
@@ -31,7 +31,6 @@ body {
   font-size: 16px;
 }
 
-/* Estilos do Menu Principal */
 .menu-principal {
   display: flex;
   justify-content: space-between;
@@ -53,7 +52,6 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Estilos do Menu Suspenso */
 .menu-suspenso {
   position: relative;
 }
@@ -76,18 +74,17 @@ body {
   display: block;
 }
 
-/* Estilos da Fonte Awesome */
+
 .fab {
   font-family: "Font Awesome 5 Free";
 }
 
-/* Estilos do Container */
+
 .container {
   max-width: 1200px;
   margin: 50px auto;
 }
 
-/* Estilos do Carrossel */
 .carousel {
   position: relative;
   overflow: hidden;
@@ -177,7 +174,7 @@ body {
   text-decoration: underline;
 }
 
-/* Estilos do Rodapé */
+
 footer {
   text-align: center;
   padding: 20px;
@@ -185,7 +182,7 @@ footer {
   color: white;
 }
 
-/* Estilos para Telas Menores */
+
 @media (max-width: 768px) {
   .container {
     width: 100%;
@@ -221,27 +218,41 @@ footer {
 .imagem-centralizada {
   display: block;
   margin: 0 auto;
-  height: 200px;
-  width: 300px;
+  height: 250px;
+  width: 400px;
+  margin-bottom: 10px;
 }
 
 h3 { 
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .special-z {
   text-align: justify;
-  padding: 70px;
+  padding: 60px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.special-z button {
+  display: block;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 1em;
 }
 
 button{
-  background-color: #2c3e50; /* Cor de fundo */
-  color: white; /* Cor do texto */
-  padding: 10px 15px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 20px;
   border: none;
+  border-radius: 4px;
   cursor: pointer;
-  left: 100px;
-  right: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 .dot{
