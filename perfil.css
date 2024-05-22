@@ -76,3 +76,18 @@ button {
     padding: 10px;
     cursor: pointer;
 }
+.menu li a {
+    color: white; /* Mantém a cor branca nos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+    display: block; /* Torna o link clicável em toda a área do item */
+    padding: 10px 0; /* Adiciona um pouco de espaçamento para tornar mais fácil clicar */
+}
+.menu li a:hover {
+    background-color: #34495e;
+    cursor: pointer;
+    color: #ecf0f1;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
