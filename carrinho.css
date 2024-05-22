@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #2B3A4B; /* Plano de fundo em azul escuro */
     color: black; /* Texto em preto */
+    background-image: url(fundo.png);
 }
 
 .container {
@@ -73,4 +74,11 @@ button:hover {
 #voltar-produtos {
     display: inline-block; /* Para manter na mesma linha */
     margin-right: 20px; /* Espaçamento entre o botão e o valor total */
+}
+
+h1 {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 450px;
 }
