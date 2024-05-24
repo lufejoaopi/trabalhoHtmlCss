@@ -4,6 +4,7 @@ body {
     padding: 0;
     display: flex;
     background-color: #f4f4f4;
+    background-image: url(fundo.png)
 }
 
 .container {
@@ -90,4 +91,3 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-

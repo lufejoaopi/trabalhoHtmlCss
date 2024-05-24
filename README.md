@@ -1,2 +1,10 @@
 # trabalhoHtmlCss
-https://drive.google.com/drive/folders/1rVWDznA_dpdYAEmPyIHxL0yoTx8FiRsX?usp=drive_link
+
+Membros:
+
+Arthur Ferreira Coelho
+João Victor Souza Lopes
+Luena Pryscylla
+Noemi Stephany
+
+https://github.com/lufejoaopi/trabalhoHtmlCss

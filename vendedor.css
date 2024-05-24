@@ -1,9 +1,11 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     display: flex;
+    background-image: url(fundo.png);
 }
 
 .container {
@@ -21,8 +23,8 @@ body {
 }
 
 .menu {
+    list-style-type: none;
     padding: 0;
-    list-style-type: disc; /* Adiciona pontos antes das opções do menu */
 }
 
 .menu li {
@@ -32,7 +34,7 @@ body {
 
 .main-content {
     margin-left: 220px;
-    padding: 20px;
+    padding: 35px;
     width: calc(100% - 220px);
 }
 
@@ -44,8 +46,9 @@ body {
 }
 
 .vendedor-imagem img {
-    width: 200px; /* Altere este valor para a largura desejada */
-    height: 200px; /* Altere este valor para a altura desejada */
+    width: 500px; 
+    height: 500px; 
+    margin: auto;
 }
 
 .vendedor-descricao h1 {
@@ -98,21 +101,15 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
 .menu li a {
-    color: white; /* Mantém a cor branca nos links */
-    text-decoration: none; /* Remove sublinhado dos links */
-    display: block; /* Torna o link clicável em toda a área do item */
-    padding: 10px 0; /* Adiciona um pouco de espaçamento para tornar mais fácil clicar */
+    color: white; 
+    text-decoration: none; 
+    display: block; 
+    padding: 10px 0; 
 }
 
 .menu li a:hover {
-    background-color: #34495e; /* Cor de fundo ao passar o mouse */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    color: #ecf0f1; /* Cor do texto ao passar o mouse */
-}
-
-.vendedor-imagem img {
-    height: 200px; /* Altere este valor para a altura desejada */
-    width: auto; /* Mantém a proporção da imagem */
+    background-color: #34495e;
+    cursor: pointer; 
+    color: #ecf0f1;
 }
